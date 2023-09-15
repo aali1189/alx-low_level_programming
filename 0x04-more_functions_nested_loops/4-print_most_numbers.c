@@ -1,15 +1,20 @@
 #include "main.h"
 
+/**
+ * print_most_numbers - prints
+ *
+ * Return: void
+ */
+
+
 void print_most_numbers(void)
 {
-int number = 48;
- for (number = 48; number < 58; number++)
-{
- if (number == 50 || number == 52)
- {
-  continue;
- }
-_putchar(number);
-}
-_putchar(10);
+	char c;
+
+	for (c = '0'; c <= '9'; c++)
+	{
+		if (!(c == '2' || c == '4'))
+			_putchar(c);
+	}
+	_putchar('\n');
 }
