@@ -1,58 +1,35 @@
 #include <stdlib.h>
 #include "main.h"
-		
 
+/**		
+ ** count_word - helper function to count the number of words in a string
+ ** @s: string to evaluate
+ **
+ ** Return: number of words
+ **/
 		
-/**
-		
- *  * count_word - helper function to count the number of words in a string
-		
- *   * @s: string to evaluate
-		
- *    *
-		
- *     * Return: number of words
-		
- *      */
-		
-int count_word(char *s)
-		
-{
+int count_word(char *s){
 		
 		int flag, c, w;
-		
-
-		
+			
 			flag = 0;
+		    w = 0;
+					
+	for (c = 0; s[c] != '\0'; c++){
 		
-				w = 0;
+	   if (s[c] == ' ')
+		        
+		   flag = 0;
 		
-
+	   else if (flag == 0){
+					
+			flag = 1;
+					 
+			w++;
+		  }
 		
-					for (c = 0; s[c] != '\0'; c++)
-		
-							{
-		
-										if (s[c] == ' ')
-		
-														flag = 0;
-		
-												else if (flag == 0)
-		
-															{
-		
-																			flag = 1;
-		
-																						w++;
-		
-																								}
-		
-													}
-		
-
-		
-						return (w);
-		
+		}
+	return (w);
 }
 		
 /**
@@ -69,9 +46,7 @@ int count_word(char *s)
 		
  */
 		
-char **strtow(char *str)
-		
-{
+char **strtow(char *str){
 		
 	char **matrix, *tmp;
 		
@@ -88,8 +63,6 @@ char **strtow(char *str)
 	if (words == 0)
 		
 		return (NULL);
-		
-
 		
 	matrix = (char **) malloc(sizeof(char *) * (words + 1));
 		
@@ -141,11 +114,7 @@ char **strtow(char *str)
 		
 	}
 		
-
-		
 	matrix[k] = NULL;
-		
-
 		
 	return (matrix);
 		
