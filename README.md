@@ -25,6 +25,6 @@ working in the C programming language. The specific list of projects contained f
 
 ## Author✍️
 
-* **[Amro Madani](https://twitter.com/amrali53)
-* **[Amro Madani](https://github.com/aali1189)
+* **[X](https://twitter.com/amrali53)
+* **[Github](https://github.com/aali1189)
 
