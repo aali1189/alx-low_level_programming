@@ -28,7 +28,7 @@ working in the C programming language. The specific list of projects contained f
 ## Author✍️
  # Amro Madani  
 
-## Socai Media 
+## Socail Media 
 
 * [X](https://twitter.com/amrali53)
 * [Github](https://github.com/aali1189)
