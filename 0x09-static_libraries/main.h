@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 #ifndef MAIN_H
 #define MAIN_H
+=======
+#ifndef FILE_MAIN
+#define FILE_MAIN
+
+/*a list that was given from the task 0 */
+>>>>>>> 17f7bbb4f87ca58e603330113de3ad5bcbd0627d
 
 int _putchar(char c);
 int _islower(int c);
