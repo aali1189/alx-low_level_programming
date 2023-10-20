@@ -22,9 +22,13 @@ working in the C programming language. The specific list of projects contained f
 * [0x0D. C - Preprocessor](./0x0D-preprocessor)
 * [0x0E. C - Structures, typedef](./0x0E-structures_typedef)
 * [0x0F. C - Function, pointers](./0x0F-function_pointers)
-
+* [0x10. C - Variadic, Function](./0x10-variadic_functions)
+* [0x12. C - Singly, Linked Lists](./0x12-singly_linked_lists)
 
 ## Author✍️
+ # Amro Madani  
+
+## Social Media 
 
 * [X](https://twitter.com/amrali53)
 * [Github](https://github.com/aali1189)
