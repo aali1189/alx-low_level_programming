@@ -2,14 +2,15 @@
 #include <stdio.h>
 
 /**
-  * print_rot13 - encodes a string into rot13.
+  * Rot13 function - encodes a string into rot13.
   * @R: string to convert
   * Return: size the output text
   */
 
-int print_rot13(va_list R)
+int Rot13(va_list R)
 {
-	int j, i, count = 0;
+    //  Declare variables
+	int j, i, count_en = 0;
 	char *r;
 	char input[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz";
 	char output[] = "NOPQRSTUVWXYZABCDEFGHIJKLM nopqrstuvwxyzabcdefghijklm";
@@ -24,10 +25,10 @@ int print_rot13(va_list R)
 			if (r[j] == input[i])
 			{
 				_putchar(output[i]);
-				count++;
+				count_en++;
 				break;
 			}
 		}
 	}
-	return (count);
+	return (count_en);
 }
