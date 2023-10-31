@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+0x09. C - Static libraries
+
+=======
 # C - Static libraries
 
 In this project, I learned what static libraries are and practiced creating and
@@ -35,3 +39,4 @@ using them with `ar`, `ranlib`, and `nm`.
 * **1. Without libraries what have we? We have no past and no future**
   * [create_static_lib.sh](./create_static_lib.sh): Bash script that creates a static
   library called `liball.a` from all the `.c` files in the current directory.
+>>>>>>> 17f7bbb4f87ca58e603330113de3ad5bcbd0627d
