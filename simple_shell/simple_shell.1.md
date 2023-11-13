@@ -66,14 +66,3 @@ To unset an environment variable:
 
 $ unsetenv MY_VAR
 
-# AUTHORS
-
-This project was created by FourtyThree43 and Kemboiray as part of the curriculum for Alx Software Engineering.
-
-# REPORTING BUGS
-
-Report any bugs or issues to gihub @fourtythree43.com or @kemboiray.
-
-# COPYRIGHT
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU
